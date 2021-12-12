@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="640.0">
+        <children>
+          <MenuBar VBox.vgrow="NEVER">
+            <menus>
+              <Menu mnemonicParsing="false" text="File">
+                <items>
+                  <MenuItem mnemonicParsing="false" text="New" />
+                  <MenuItem mnemonicParsing="false" text="Open…" />
+                  <Menu mnemonicParsing="false" text="Open Recent" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Close" />
+                  <MenuItem mnemonicParsing="false" text="Save" />
+                  <MenuItem mnemonicParsing="false" text="Save As…" />
+                  <MenuItem mnemonicParsing="false" text="Revert" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Preferences…" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Quit" />
+                </items>
+              </Menu>
+              <Menu mnemonicParsing="false" text="Edit">
+                <items>
+                  <MenuItem mnemonicParsing="false" text="Undo" />
+                  <MenuItem mnemonicParsing="false" text="Redo" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Cut" />
+                  <MenuItem mnemonicParsing="false" text="Copy" />
+                  <MenuItem mnemonicParsing="false" text="Paste" />
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Select All" />
+                  <MenuItem mnemonicParsing="false" text="Unselect All" />
+                </items>
+              </Menu>
+              <Menu mnemonicParsing="false" text="Help">
+                <items>
+                  <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+                </items>
+              </Menu>
+            </menus>
+          </MenuBar>
+          <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <children>
+                  <Button fx:id="seven" layoutX="555.0" layoutY="98.0" mnemonicParsing="false" onAction="#turnRed6" prefHeight="25.0" prefWidth="47.0" text="7" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="six" layoutX="489.0" layoutY="98.0" mnemonicParsing="false" onAction="#turnRed5" prefHeight="25.0" prefWidth="47.0" text="6" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="two" layoutX="79.0" layoutY="98.0" mnemonicParsing="false" onAction="#turnRed1" prefHeight="25.0" prefWidth="47.0" text="2" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="five" layoutX="350.0" layoutY="98.0" mnemonicParsing="false" onAction="#turnRed4" prefHeight="25.0" prefWidth="47.0" text="5" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="four" layoutX="283.0" layoutY="98.0" mnemonicParsing="false" onAction="#turnRed3" prefHeight="25.0" prefWidth="47.0" text="4" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="one" layoutX="14.0" layoutY="98.0" mnemonicParsing="false" onAction="#turnRed" prefHeight="25.0" prefWidth="47.0" text="1" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="three" layoutX="212.0" layoutY="98.0" mnemonicParsing="false" onAction="#turnRed2" prefHeight="25.0" prefWidth="47.0" text="3" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="nine" layoutX="79.0" layoutY="174.0" mnemonicParsing="false" onAction="#turnRed8" prefHeight="25.0" prefWidth="47.0" text="9" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="eight" layoutX="14.0" layoutY="174.0" mnemonicParsing="false" onAction="#turnRed7" prefHeight="25.0" prefWidth="47.0" text="8" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="twelve" layoutX="350.0" layoutY="174.0" mnemonicParsing="false" onAction="#turnRed11" prefHeight="25.0" prefWidth="47.0" text="12" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="eleven" layoutX="283.0" layoutY="174.0" mnemonicParsing="false" onAction="#turnRed10" prefHeight="25.0" prefWidth="47.0" text="11" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="ten" layoutX="212.0" layoutY="174.0" mnemonicParsing="false" onAction="#turnRed9" prefHeight="25.0" prefWidth="47.0" text="10" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font></Button>
+                  <Button fx:id="fourteen" layoutX="552.0" layoutY="174.0" mnemonicParsing="false" onAction="#turnRed13" prefHeight="25.0" prefWidth="47.0" text="14" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <Button fx:id="thirteen" layoutX="489.0" layoutY="174.0" mnemonicParsing="false" onAction="#turnRed12" prefHeight="25.0" prefWidth="47.0" text="13" textFill="#449666">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font></Button>
+                  <ImageView fitHeight="76.0" fitWidth="587.0" layoutX="27.0" layoutY="3.0" nodeOrientation="INHERIT" pickOnBounds="true">
+                     <image>
+                        <Image url="https://am22.mediaite.com/tms/cnt/uploads/2020/04/lord-of-the-rings-fellowship-of-the-ring.jpg" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="S_RESIZE" />
+                     </cursor>
+                  </ImageView>
+                  <Button fx:id="button1" layoutX="283.0" layoutY="289.0" mnemonicParsing="false" onAction="#loginPage" onDragDetected="#loginPage" text="Continue" />
+            </children>
+          </AnchorPane>
+        </children>
+      </VBox>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

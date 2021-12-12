@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="100.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ErrorMessageController">
+   <children>
+      <TextField editable="false" layoutX="20.0" layoutY="28.0" prefHeight="43.0" prefWidth="160.0" text="Invalid user information">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
